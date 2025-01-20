@@ -4,7 +4,13 @@ import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import ThemeToggle from "@/components/ThemeToggle";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  preload: true,
+  variable: "--font-inter",
+  adjustFontFallback: true
+});
 
 export const metadata: Metadata = {
   title: "Deric Yee - Tech Entrepreneur & AI Educator",
@@ -59,8 +65,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning className={inter.className}>
+      <body>
         <ThemeProvider>
           <div className="fixed top-1 right-1 sm:top-6 sm:right-6 md:top-8 md:right-8 z-[60] scale-50 sm:scale-100 md:scale-150 bg-[var(--background)]/80 backdrop-blur-sm p-2 rounded-full">
             <ThemeToggle />
