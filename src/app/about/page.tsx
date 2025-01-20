@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
-import Bio from "@/components/Bio";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -58,7 +57,7 @@ export default function About() {
                 />
               </motion.div>
               <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>1. I studied Accounting & Finance at Lancaster University, UK, graduating in 2019.</motion.p>
-              <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>2. I'm 27 years old. Born in December, 1997 and I'm a Malaysian Chinese. Currently based in Kuala Lumpur, Malaysia 🇲🇾.</motion.p>
+              <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>2. I&apos;m 27 years old. Born in December, 1997 and I&apos;m a Malaysian Chinese. Currently based in Kuala Lumpur, Malaysia 🇲🇾.</motion.p>
               <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>3. I work out at least 1 hour every day!</motion.p>
               <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>4. I dream of being able to run a $1B+ venture builder/venture capital firm some day to enable more game-changing ventures!</motion.p>
               <motion.p className="text-base md:text-xl text-[var(--muted)]" variants={fadeIn}>5. I travel for fun quite frequently. I love exploring and making new memories! Been to 20 countries & speak 4 languages 🌍</motion.p>
@@ -67,9 +66,9 @@ export default function About() {
 
           {/* Future Focus */}
           <motion.div className="mt-24 mb-24" variants={fadeIn}>
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head's at</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head&apos;s at</h2>
             <motion.p className="text-base md:text-xl text-[var(--muted)] mb-12" variants={fadeIn}>
-              I'm learning and educating myself daily on what I believe will shape our future:
+              I&apos;m learning and educating myself daily on what I believe will shape our future:
             </motion.p>
             
             <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" variants={stagger}>
@@ -181,7 +180,7 @@ export default function About() {
               <motion.div variants={fadeIn}>
                 <h2 className="text-2xl font-medium mb-4 text-[var(--foreground)]">My Misogi Goals for 2025</h2>
                 <p className="text-base md:text-lg text-[var(--muted)] mb-8 leading-relaxed">
-                  There's an ancient Japanese ritual called a MISOGI. You do one defining thing every year. Something scary, something hard, something you're proud of. It DEFINES your year.
+                  There&apos;s an ancient Japanese ritual called a MISOGI. You do one defining thing every year. Something scary, something hard, something you&apos;re proud of. It DEFINES your year.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <motion.div 
@@ -268,7 +267,7 @@ export default function About() {
                 <motion.h3 className="text-2xl font-bold mb-6 text-[var(--foreground)]" variants={fadeIn}>1. Most things in life can be self taught</motion.h3>
                 <motion.div className="space-y-4 text-base md:text-xl text-[var(--muted)]" variants={stagger}>
                   <motion.p variants={fadeIn}>2019: Venture Capital caught my attention, so I worked with a VC firm to start a Student VC in university. Got my first job in a VC firm in Malaysia.</motion.p>
-                  <motion.p variants={fadeIn}>2020: Soul-searching year. Didn't want to work as a number cruncher in corporate. Left my first job. Learned to code & develop full stack web apps. Tried several tech startup ideas, no one signed up for it. They all failed.</motion.p>
+                  <motion.p variants={fadeIn}>2020: Soul-searching year. Didn&apos;t want to work as a number cruncher in corporate. Left my first job. Learned to code & develop full stack web apps. Tried several tech startup ideas, no one signed up for it. They all failed.</motion.p>
                   <motion.p variants={fadeIn}>2021: Learned to to teach coding & close clients for software development projects to pay the bills.</motion.p>
                   <motion.p variants={fadeIn}>2022: Launched my 3 month coding bootcamp - Sigma School.</motion.p>
                   <motion.p variants={fadeIn}>2023: Got our first office in Puchong, Malaysia & figured out how to automate sales through digital marketing channels.</motion.p>
@@ -290,7 +289,7 @@ export default function About() {
                 <motion.div className="space-y-4 text-base md:text-xl text-[var(--muted)]" variants={stagger}>
                   <motion.p variants={fadeIn}>A generalist is someone who learns all relevant knowledge and skills out of interest of achieving a goal in their life.</motion.p>
                   <motion.p variants={fadeIn}>I learned all the basic skills needed to go from zero to one. This came naturally for me, even though it was against conventional wisdom at the beginning.</motion.p>
-                  <motion.p variants={fadeIn}>I firmly believe in this now and I want to encourage more people to take on this paths.</motion.p>
+                  <motion.p variants={fadeIn}>I firmly believe in this now and I want to encourage more people to take on this path.</motion.p>
                 </motion.div>
               </motion.div>
             </motion.div>
@@ -300,7 +299,7 @@ export default function About() {
           <motion.div className="mb-24" variants={fadeIn}>
             <h2 className="text-3xl font-bold mb-8 text-[var(--foreground)]">Invest in me or work with me</h2>
             <motion.div className="space-y-4 text-xl text-[var(--muted)]" variants={stagger}>
-              <motion.p variants={fadeIn}>I have tons of ideas and plans! And I know I can't do it all alone. Always down to chat if there's funding or collaboration opportunities!</motion.p>
+              <motion.p variants={fadeIn}>I have tons of ideas and plans! And I know I can&apos;t do it all alone. Always down to chat if there&apos;s funding or collaboration opportunities!</motion.p>
               <motion.p variants={fadeIn}>
                 Reach me on <a href="https://www.linkedin.com/in/dericyeejiyong/" target="_blank" rel="noopener noreferrer" className="text-[var(--foreground)] hover:underline font-medium">LinkedIn</a> or write me an email at{" "}
                 <a 

@@ -293,11 +293,13 @@ export default function Home() {
               <p className="text-gray-400">Got too excited once I could ship products. All failed. Learned a ton</p>
             </motion.div>
 
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2022 - present</div>
-              <h3 className="font-semibold mb-1">Since then</h3>
-              <p className="text-gray-400">$600k/yr - tech consulting & projects, education & recruitment. Exploring the future of education and work, with AI. Deep into working with AI.</p>
+            <motion.div variants={fadeIn}>
+              <div className="relative pl-8 border-l border-[var(--border)]">
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2022 - present</div>
+                <h3 className="font-semibold mb-1">Since then</h3>
+                <p className="text-gray-400">$600k/yr - tech consulting & projects, education & recruitment. Exploring the future of education and work, with AI. Deep into working with AI.</p>
+              </div>
             </motion.div>
           </motion.div>
         </motion.div>

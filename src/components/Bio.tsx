@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 const Bio = () => {
   return (
     <div className="flex flex-col space-y-4">

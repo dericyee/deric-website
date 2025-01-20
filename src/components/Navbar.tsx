@@ -35,7 +35,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-xl md:text-2xl">👋</span>
-                <h1 className="text-xl md:text-2xl font-bold">Hi, I'm Deric</h1>
+                <h1 className="text-xl md:text-2xl font-bold">Hi, I&apos;m Deric</h1>
               </div>
               <p className="text-sm md:text-base text-[var(--muted)]">
                 👨‍💻Tech, AI & web3 builder.{'\n'}
