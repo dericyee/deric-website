@@ -41,24 +41,26 @@ export default function Home() {
           {/* Current Ventures */}
           <motion.div variants={fadeIn}>
             <div className="text-center mx-auto mb-16">
-              <h2 className="text-[2.8rem] leading-tight md:text-[3.6rem] font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 via-red-500 via-yellow-500 to-green-400 text-transparent bg-clip-text animate-gradient flex items-center justify-center gap-4">
-                <span className="text-[2.8rem] md:text-[3.6rem]">🚀</span>
-                Building the future of education and work
+              <h2 className="text-[2.8rem] leading-[1.4] md:text-[3.6rem] font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 via-red-500 via-yellow-500 to-green-400 text-transparent bg-clip-text animate-gradient flex items-center justify-center gap-4">
+                Building the future of
+                <br />
+                
+                education and work
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="flex flex-col h-full">
-                  <div className="mb-6 text-4xl">👩🏻‍💻</div>
+                  <div className="flex items-center gap-2 mb-6">
+                    <h2 className="text-lg tracking-tight">Sigma School</h2>
+                    <span className="text-2xl">👩🏻‍💻</span>
+                  </div>
                   <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <h2 className="text-lg tracking-tight">Sigma School →</h2>
-                    </div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Tech</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Education</span>
                     </div>
-                    <div className="space-y-4 text-[15px] leading-relaxed text-muted-foreground font-light">
+                    <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
                       <p>The future of education.</p>
                       <p>Learn new tech skills in 3 months.</p>
                       <p>Job or 100% free.</p>
@@ -74,33 +76,40 @@ export default function Home() {
 
               <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="flex flex-col h-full">
-                  <div className="mb-6 text-4xl">📱</div>
+                  <div className="flex items-center gap-2 mb-6">
+                    <h2 className="text-lg tracking-tight">Codeo.ai</h2>
+                    <span className="text-2xl">📱</span>
+                  </div>
                   <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <h2 className="text-lg tracking-tight">Codeo.ai →</h2>
-                    </div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">AI</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">Learning</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">Mobile</span>
                     </div>
-                    <p className="text-[15px] leading-relaxed text-muted-foreground font-light">Mobile app to help users self-learn coding. Duolingo for coders! Available on iOS & Android.</p>
+                    <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
+                      <p>Mobile app to help users self-learn coding.</p>
+                      <p>Duolingo for coders!</p>
+                      <p>Available on iOS & Android.</p>
+                    </div>
                   </div>
                 </div>
               </Link>
 
               <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="flex flex-col h-full">
-                  <div className="mb-6 text-4xl">🤝</div>
+                  <div className="flex items-center gap-2 mb-6">
+                    <h2 className="text-lg tracking-tight">tryJobier.com</h2>
+                    <span className="text-2xl">🤝</span>
+                  </div>
                   <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <h2 className="text-lg tracking-tight">tryJobier.com →</h2>
-                    </div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400">Jobs</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400">AI</span>
                     </div>
-                    <p className="text-[15px] leading-relaxed text-muted-foreground font-light">Your Personal AI Job Assistant. Upload your CV, set preferences, and get 100+ tailored job applications daily, even while you sleep.</p>
+                    <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
+                      <p>Your Personal AI Job Assistant.</p>
+                      <p>Upload your CV, set preferences, and get 100+ tailored job applications daily, even while you sleep.</p>
+                    </div>
                   </div>
                 </div>
               </Link>

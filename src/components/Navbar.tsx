@@ -33,23 +33,23 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
               />
             </motion.div>
             <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-4">
-                <span className="text-xl md:text-2xl">👋</span>
-                <h1 className="text-xl md:text-2xl font-bold">Hi, I&apos;m Deric</h1>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg md:text-2xl">👋</span>
+                <h1 className="text-lg md:text-2xl font-bold">Hi, I&apos;m Deric</h1>
               </div>
-              <p className="text-sm md:text-base text-[var(--muted)]">
-                👨‍💻Tech, AI & web3 builder.{'\n'}
-                ⚡️Working on the future of education & work.{'\n'}
-                📍Based in Kuala Lumpur, Malaysia.
+              <p className="text-xs md:text-base text-[var(--muted)] whitespace-pre-line">
+                👨‍💻 Tech, AI & web3 builder.
+                ⚡️ Working on the future of education & work.
+                📍 Based in Kuala Lumpur.
               </p>
-              <div className="mt-4 flex items-center gap-4">
+              <div className="mt-3 flex items-center gap-3">
                 <Link 
                   href={isHome ? "/about" : "/"} 
-                  className="inline-flex items-center gap-1.5 px-2 py-1 md:px-3 md:py-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors text-[var(--foreground)] text-xs md:text-sm"
+                  className="inline-flex items-center gap-1 px-2 py-1 md:px-3 md:py-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors text-[var(--foreground)] text-xs md:text-sm"
                 >
                   {isHome ? "More about me" : "Back to home"}
-                  <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  <svg className="w-2 h-2 md:w-2.5 md:h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
                 <div className="flex items-center gap-2">
