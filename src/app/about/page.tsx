@@ -40,13 +40,13 @@ export default function About() {
         {/* Add padding to account for fixed header */}
         <div className="mt-[180px] md:mt-[175px]">
           <div className="max-w-4xl mx-auto px-4 py-8">
-            <p className="text-gray-600 mb-8 italic">
+            <p className="text-[var(--muted)] mb-8 italic">
               This page is a little self indulgent, it&apos;s all about me. Hopefully you&apos;ll find it interesting though 🙂.
             </p>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Quick facts about me</h2>
-              <ul className="list-disc pl-6 space-y-3 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Quick facts about me</h2>
+              <ul className="list-disc pl-6 space-y-3 text-[var(--muted)]">
                 <li>I studied Accounting & Finance at Lancaster University, UK, graduating in 2019.</li>
                 <li>I&apos;m 27 years old. Born in December, 1997 and I&apos;m a Malaysian Chinese. Currently based in Kuala Lumpur, Malaysia 🇲🇾.</li>
                 <li>I work out at least 1 hour every day. My workout focus at the moment: Running, Hyrox & Mixed Martial Arts (Boxing, BJJ).</li>
@@ -56,8 +56,8 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Timeline</h2>
-              <ul className="list-disc pl-6 space-y-3 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Timeline</h2>
+              <ul className="list-disc pl-6 space-y-3 text-[var(--muted)]">
                 <li>2019: left my job in vc to self learn code</li>
                 <li>2020: build software projects & many failed tech ideas</li>
                 <li>2022 - now: grew my tech business to $80k/m</li>
@@ -66,8 +66,8 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">In 2019</h2>
-              <div className="space-y-4 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">In 2019</h2>
+              <div className="space-y-4 text-[var(--muted)]">
                 <p>My journey started back in 2019 when I was still a student in Lancaster University, UK. I was studying Finance and Venture Capital caught my interest.</p>
                 <p>Back then, I started running Student VC firm with a British VC enable more funding to Northern England startups as almost all startup funding were disproportionately concentrated in London.</p>
                 <p>This is when I first got the startup-bug.</p>
@@ -81,18 +81,18 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">But for me, 3 things led me to choose coding as a technical skills:</h2>
-              <ol className="list-decimal pl-6 space-y-3 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">But for me, 3 things led me to choose coding as a technical skills:</h2>
+              <ol className="list-decimal pl-6 space-y-3 text-[var(--muted)]">
                 <li>Tech is the common denominator for all tech startups. I want to build a tech startup. So if I learned how to build software, it won&apos;t go wrong.</li>
                 <li>9/10 of the top 10 biggest companies in S&P500 are tech companies. So I probably am on the right path. Think Facebook, Apple, Google, Microsoft, Nvidia, Amazon and so on.</li>
                 <li>I saw how desperate founders recruit tech talents. I know how bad the talent market is for software developers. Saw first hand in most of the startup networking events I organised or attended during my VC days, it&apos;s usually as bad as every 1 techie to 7 non-tech founders. The non-tech founders were always pitching to the techie.</li>
               </ol>
-              <p className="mt-4 text-gray-700">Worst case scenario, I have my bets hedged. If it all crash and burns, I&apos;ll just get use my tech skills somewhere and get a job somewhere.</p>
+              <p className="mt-4 text-[var(--muted)]">Worst case scenario, I have my bets hedged. If it all crash and burns, I&apos;ll just get use my tech skills somewhere and get a job somewhere.</p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Said F**K It & Took A Leap Of Faith. Scariest period of my life.</h2>
-              <div className="space-y-4 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Said F**K It & Took A Leap Of Faith. Scariest period of my life.</h2>
+              <div className="space-y-4 text-[var(--muted)]">
                 <p>So that&apos;s what I did. It was probably the most demoralising point in my life. Learning through online tutorials, building projects on my own, locked myself in my room and just did coding-related stuff from 8AM to 8PM every day for at least 6 months.</p>
                 <p>Throughout the 6 months, I gave up a few times to dabble in different things relevant to the tech industry like UI/UX, Project Management, Data Analytics, or just rotating among different tutorials for different programming languages as soon as it gets tough.</p>
                 <p>I was kinda going nowhere. Still couldn&apos;t really build anything from scratch on my own.</p>
@@ -101,13 +101,13 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">It&apos;s do or die. And it boiled down to these 3 things.</h2>
-              <ol className="list-decimal pl-6 space-y-3 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">It&apos;s do or die. And it boiled down to these 3 things.</h2>
+              <ol className="list-decimal pl-6 space-y-3 text-[var(--muted)]">
                 <li>Choose a tech stack and stick to it. I went with the Javascript stack. VueJS, TailwindCSS, Expressjs, Firebase.</li>
                 <li>Choose a project. Back then, a Korean drama called "Start Up" was famous for building this app called NoonGil in a Korean Accelerator. It helped blind people see using Object Detection AI. I chose this.</li>
                 <li>Figure it out. No matter what. No excuses.</li>
               </ol>
-              <div className="mt-4 space-y-4 text-gray-700">
+              <div className="mt-4 space-y-4 text-[var(--muted)]">
                 <p>Interestingly enough, I got it done in a few weeks (without building my own ML models, of course.</p>
                 <p>I plugged into some open source models API and got it to work. Almost an exact clone of it).</p>
                 <p>From then on, I realised there&apos;s no "secret" to learning to code. You really just gotta grind through it.</p>
@@ -117,8 +117,8 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Stacking Small Wins For Confidence Points</h2>
-              <div className="space-y-4 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Stacking Small Wins For Confidence Points</h2>
+              <div className="space-y-4 text-[var(--muted)]">
                 <p>Fast forward after that, I started leaving my home a little more, starting talking what I&apos;ve been locking myself at home for so long for, and people around me started knowing that I was doing some coding stuff at home.</p>
                 <p>I had Computer Science and IT graduate friends who reached out to me to help them with their technical interview, so I thought to myself - Why not? It&apos;s about time for me to apply too so let&apos;s try it out.</p>
                 <p>I could solve all the algorithm scripting, frontend and backend challenges with ease for this entry level role.</p>
@@ -132,13 +132,13 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">This was a pivotal moment in my life because:</h2>
-              <ol className="list-decimal pl-6 space-y-3 text-gray-700">
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">This was a pivotal moment in my life because:</h2>
+              <ol className="list-decimal pl-6 space-y-3 text-[var(--muted)]">
                 <li>I proved that I could do it fully on my own. I gained confidence.</li>
                 <li>People were willing to pay me for my skills. I gained more confidence.</li>
                 <li>There&apos;s a big gap in the market. I knew I had to do something about this.</li>
               </ol>
-              <p className="mt-4 text-gray-700">Which led me to work on a series of iterations in the coding education scene (story for another day!), that led to what became Sigma School in 2022, where we help train anyone to learn coding in 3 months, and get a job after they graduate, or we give them 100% of their money back.</p>
+              <p className="mt-4 text-[var(--muted)]">Which led me to work on a series of iterations in the coding education scene (story for another day!), that led to what became Sigma School in 2022, where we help train anyone to learn coding in 3 months, and get a job after they graduate, or we give them 100% of their money back.</p>
             </section>
           </div>
 
