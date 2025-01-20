@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp, and scaled multiple tech ventures to $80k/month.",
   keywords: ["tech entrepreneur", "AI educator", "Sigma School", "coding bootcamp", "Malaysia", "Deric Yee", "tech education", "Codeo.ai", "Jobier"],
   authors: [{ name: "Deric Yee" }],
+  icons: {
+    icon: '/profile.jpg',
+    apple: '/profile.jpg',
+  },
   openGraph: {
     title: "Deric Yee - Tech Entrepreneur & AI Educator",
     description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp.",
@@ -21,7 +25,6 @@ export const metadata: Metadata = {
         url: "/profile.jpg",
         width: 1024,
         height: 1024,
-        alt: "Deric Yee",
       },
     ],
     locale: "en_US",
@@ -59,7 +62,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider>
-          <ThemeToggle />
+          <div className="fixed top-1 right-1 sm:top-6 sm:right-6 md:top-8 md:right-8 z-[60] scale-50 sm:scale-100 md:scale-150 bg-[var(--background)]/80 backdrop-blur-sm p-2 rounded-full">
+            <ThemeToggle />
+          </div>
           {children}
         </ThemeProvider>
       </body>

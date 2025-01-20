@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Navbar from "@/components/Navbar";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -32,53 +33,19 @@ export default function Home() {
         animate="visible"
         variants={stagger}
       >
-        {/* Header */}
-        <motion.div className="mb-24" variants={fadeIn}>
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
-            <motion.div 
-              className="relative w-40 h-40 shrink-0"
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.5 }}
-            >
-              <Image
-                src="/profile.jpg"
-                alt="Deric Yee"
-                fill
-                className="rounded-2xl object-cover"
-                priority
-              />
-            </motion.div>
-            <div>
-              <motion.h1 
-                className="text-5xl font-bold mb-6 text-center md:text-left text-white"
-                variants={fadeIn}
-              >
-                👋 Hello friends, I'm Deric!
-              </motion.h1>
-              <motion.p className="text-xl text-[var(--muted)]" variants={fadeIn}>
-                Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp, and scaled multiple tech ventures to $80k/month.
-              </motion.p>
-              <div className="text-center md:text-left mt-4">
-                <Link 
-                  href="/about" 
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors text-[var(--foreground)]"
-                >
-                  More about me
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </div>
+        {/* Fixed Header */}
+        <Navbar isHome={true} />
 
+        {/* Add padding to account for fixed header */}
+        <div className="mt-[180px] md:mt-[175px]">
           {/* Current Ventures */}
           <motion.div variants={fadeIn}>
-            <h2 className="text-2xl font-medium mb-4 text-white">Current Ventures</h2>
-            <p className="text-[15px] leading-relaxed text-muted-foreground font-light mb-8">
-              Actively building on what I believe is the future of education and work
-            </p>
+            <div className="text-center mx-auto mb-16">
+              <h2 className="text-[2.8rem] leading-tight md:text-[3.6rem] font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 via-red-500 via-yellow-500 to-green-400 text-transparent bg-clip-text animate-gradient flex items-center justify-center gap-4">
+                <span className="text-[2.8rem] md:text-[3.6rem]">🚀</span>
+                Building the future of education and work
+              </h2>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="flex flex-col h-full">
@@ -96,9 +63,9 @@ export default function Home() {
                       <p>Learn new tech skills in 3 months.</p>
                       <p>Job or 100% free.</p>
                       <ul className="list-none space-y-2 mt-4">
-                        <li>- Full stack web dev + AI</li>
-                        <li>- Data analytics + AI</li>
-                        <li>- Digital marketing + AI</li>
+                        <li>💻 Full stack web dev + AI</li>
+                        <li>📊 Data analytics + AI</li>
+                        <li>🚀 Digital marketing + AI</li>
                       </ul>
                     </div>
                   </div>
@@ -139,10 +106,10 @@ export default function Home() {
               </Link>
             </div>
           </motion.div>
-        </motion.div>
+        </div>
 
         {/* Media */}
-        <motion.div className="mb-24" variants={fadeIn}>
+        <motion.div className="mt-24 mb-24" variants={fadeIn}>
           <h2 className="text-2xl font-medium mb-8">In the media</h2>
           <p className="text-xl text-[var(--muted)] mb-8">Featured in major Malaysian media outlets for my work in tech education and entrepreneurship.</p>
           <motion.div 
@@ -164,8 +131,30 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                   <div>
-                    <h3 className="font-medium text-lg mb-2">The Edge Malaysia</h3>
-                    <p className="text-sm text-gray-300">Edutech: Coding computers and decoding talents</p>
+                    <h3 className="font-medium text-lg mb-2 text-white">The Edge Malaysia</h3>
+                    <p className="text-sm text-white/90">Edutech: Coding computers and decoding talents</p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link 
+              href="https://www.disruptr.co/sigma-school-malaysia-coding-bootcamp/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block"
+            >
+              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                <Image
+                  src="/disruptr.jpg"
+                  alt="Disruptr Feature"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                  <div>
+                    <h3 className="font-medium text-lg mb-2 text-white">Disruptr</h3>
+                    <p className="text-sm text-white/90">Malaysia's First Income Share Agreement Coding Bootcamp</p>
                   </div>
                 </div>
               </div>
@@ -186,8 +175,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                   <div>
-                    <h3 className="font-medium text-lg mb-2">BFM 89.9</h3>
-                    <p className="text-sm text-gray-300">Get a Job or Your Money Back</p>
+                    <h3 className="font-medium text-lg mb-2 text-white">BFM 89.9</h3>
+                    <p className="text-sm text-white/90">Get a Job or Your Money Back</p>
                   </div>
                 </div>
               </div>
@@ -208,8 +197,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                   <div>
-                    <h3 className="font-medium text-lg mb-2">Astro Awani</h3>
-                    <p className="text-sm text-gray-300">Transform Life Through Tech</p>
+                    <h3 className="font-medium text-lg mb-2 text-white">Astro Awani</h3>
+                    <p className="text-sm text-white/90">Transform Life Through Tech</p>
                   </div>
                 </div>
               </div>
@@ -230,8 +219,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                   <div>
-                    <h3 className="font-medium text-lg mb-2">Vulcan Post</h3>
-                    <p className="text-sm text-gray-300">The Duolingo for Coding App</p>
+                    <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
+                    <p className="text-sm text-white/90">The Duolingo for Coding App</p>
                   </div>
                 </div>
               </div>
@@ -395,6 +384,14 @@ export default function Home() {
                     className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
                   >
                     Sigma School
+                  </Link>
+                  <Link 
+                    href="https://sigmastudios.co" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
+                  >
+                    Sigma Studios
                   </Link>
                   <Link 
                     href="https://codeo.ai" 
