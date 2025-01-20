@@ -47,7 +47,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                   href={isHome ? "/about" : "/"} 
                   className="inline-flex items-center gap-1 px-2 py-1 md:px-3 md:py-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors text-[var(--foreground)] text-xs md:text-sm"
                 >
-                  {isHome ? "More about me" : "Back to home"}
+                  {isHome ? "About me" : "Back home"}
                   <svg className="w-2 h-2 md:w-2.5 md:h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
