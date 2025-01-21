@@ -87,3 +87,9 @@ body {
   animation: gradient 4s ease infinite;
   @apply text-2xl md:text-4xl font-bold bg-clip-text text-transparent leading-relaxed;
 }
+
+.animate-gradient-button {
+  background: linear-gradient(to right, #6366f1, #ec4899, #f43f5e);
+  background-size: 200% 200%;
+  animation: gradient 4s ease infinite;
+}

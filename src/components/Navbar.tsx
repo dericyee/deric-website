@@ -45,7 +45,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
               <div className="mt-3 flex items-center gap-3">
                 <Link 
                   href={isHome ? "/about" : "/"} 
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 md:px-4 md:py-2 rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:opacity-90 transition-all text-white font-medium text-xs md:text-sm shadow-lg hover:shadow-xl"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 md:px-4 md:py-2 rounded-lg animate-gradient-button hover:opacity-90 transition-all text-white font-medium text-xs md:text-sm shadow-lg hover:shadow-xl"
                 >
                   {isHome ? "About me" : "Back home"}
                   <svg className="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
