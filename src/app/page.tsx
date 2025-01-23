@@ -320,7 +320,7 @@ export default function Home() {
                 <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
                 <div className="text-sm text-[var(--muted)] mb-1">2024</div>
                 <h3 className="font-semibold mb-1">Business stabilization</h3>
-                <p className="text-gray-400">Stabilise the business model. Focuse on people, product, & process so the company could run on its own without my active involvement. Didn&apos;t really achieve it. But much closer to it. Hit my first USD80k/month. Launched Codeo.ai with my brother - The mobile app to self learn coding.</p>
+                <p className="text-gray-400">Stabilise the business model. Focused on people, product, & process so the company could run on its own without my active involvement. Didn&apos;t really achieve it. But much closer to it. Hit my first USD80k/month. Launched Codeo.ai with my brother - The mobile app to self learn coding.</p>
               </motion.div>
 
               <motion.div variants={fadeIn}>
