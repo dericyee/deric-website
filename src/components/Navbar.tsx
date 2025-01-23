@@ -84,7 +84,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                     </svg>
                   </Link>
                   <Link 
-                    href="https://www.tiktok.com/@dericjyyee"
+                    href="https://www.tiktok.com/@dericyjy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
