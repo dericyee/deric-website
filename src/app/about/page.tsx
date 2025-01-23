@@ -47,28 +47,21 @@ export default function About() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Quick facts about me</h2>
               <ul className="list-disc pl-6 space-y-3 text-sm md:text-base text-[var(--muted)]">
-                <li>I studied Accounting & Finance at Lancaster University, UK, graduating in 2019.</li>
-                <li>I&apos;m 27 years old. Born in December, 1997 and I&apos;m a Malaysian Chinese. Currently based in Kuala Lumpur 🇲🇾.</li>
-                <li>I work out at least 1 hour every day. My workout focus at the moment: Running, Hyrox & Mixed Martial Arts (Boxing, BJJ).</li>
-                <li>I dream of being able to run a $1B+ venture builder/venture capital firm some day to enable more game-changing ventures!</li>
-                <li>I travel for fun quite frequently. I love exploring and making new memories! Been to 20 countries & speak 4 languages 🌍</li>
+                <li>📈 I studied Accounting & Finance at Lancaster University, UK, graduating in 2019.</li>
+                <li>👨‍💻 I&apos;m turning 28 this year. Born in December, 1997 and I&apos;m a Malaysian Chinese. Currently based in Kuala Lumpur 🇲🇾.</li>
+                <li>🏃‍♂️ I work out at least 1 hour every day. My workout focus at the moment: Running, Boxing & Mobility</li>
+                <li>💰 I dream of being able to run a $1B+ venture builder/venture capital firm some day to enable more game-changing ventures!</li>
+                <li>🌍 I travel for fun quite frequently. I love exploring and making new memories! Been to 20 countries & speak 4 languages 🌍</li>
+                <li>🎸 My goal this year is to learn to play the guitar, surf in Bali & snowboard in Japan</li>
+                <li>🤖 Going deep into AI, Web3 & Content creation this year</li>
               </ul>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Timeline</h2>
-              <ul className="list-disc pl-6 space-y-3 text-sm md:text-base text-[var(--muted)]">
-                <li>2019: left my job in vc to self learn code</li>
-                <li>2020: build software projects & many failed tech ideas</li>
-                <li>2022 - now: grew my tech business to $80k/m</li>
-                <li>next: building hrtech & edtech ai saas</li>
-              </ul>
-            </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">In 2019</h2>
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">My journey started in 2019</h2>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)]">
-                <p>My journey started back in 2019 when I was still a student in Lancaster University, UK. I was studying Finance and Venture Capital caught my interest.</p>
+                <p>Back when I was still a student in Lancaster University, UK. I was studying Finance and Venture Capital caught my interest.</p>
                 <p>Back then, I started running Student VC firm with a British VC enable more funding to Northern England startups as almost all startup funding were disproportionately concentrated in London.</p>
                 <p>This is when I first got the startup-bug.</p>
                 <p>Seeing founders passionately pitching their ideas, building their tech startup, brainstorming new ideas and iterating through pitfalls.</p>
@@ -81,7 +74,7 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">But for me, 3 things led me to choose coding as a technical skills:</h2>
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">3 things led me to me self-learning to code</h2>
               <ol className="list-decimal pl-6 space-y-3 text-sm md:text-base text-[var(--muted)]">
                 <li>Tech is the common denominator for all tech startups. I want to build a tech startup. So if I learned how to build software, it won&apos;t go wrong.</li>
                 <li>9/10 of the top 10 biggest companies in S&P500 are tech companies. So I probably am on the right path. Think Facebook, Apple, Google, Microsoft, Nvidia, Amazon and so on.</li>
@@ -144,7 +137,7 @@ export default function About() {
 
           {/* Future Focus */}
           <motion.div className="mt-24 mb-24" variants={fadeIn}>
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head&apos;s at</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head&apos;s at now</h2>
             <motion.p className="text-sm md:text-base text-[var(--muted)] mb-12" variants={fadeIn}>
               I&apos;m learning and educating myself daily on what I believe will shape our future:
             </motion.p>
@@ -382,6 +375,7 @@ export default function About() {
                 <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
                   <motion.p variants={fadeIn}>A generalist is someone who learns all relevant knowledge and skills out of interest of achieving a goal in their life.</motion.p>
                   <motion.p variants={fadeIn}>I learned all the basic skills needed to go from zero to one. This came naturally for me, even though it was against conventional wisdom at the beginning.</motion.p>
+                  <motion.p variants={fadeIn}>Things are about to change at lightning speed. Jobs will be replaced, humans will be empowered to do more. We're no longer stuck to 1 path for 20-30 years of our lives.</motion.p>
                   <motion.p variants={fadeIn}>I firmly believe in this now and I want to encourage more people to take on this path.</motion.p>
                 </motion.div>
               </motion.div>
