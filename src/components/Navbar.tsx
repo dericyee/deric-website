@@ -47,7 +47,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                   href={isHome ? "/about" : "/"} 
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 md:px-4 md:py-2 rounded-lg animate-gradient-button hover:opacity-90 transition-all text-white font-medium text-xs md:text-sm shadow-lg hover:shadow-xl"
                 >
-                  {isHome ? "About me" : "Back home"}
+                  {isHome ? "About me" : "Home"}
                   <svg className="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -74,17 +74,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                     </svg>
                   </Link>
                   <Link 
-                    href="https://x.com/dericjyyee"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
-                  >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                    </svg>
-                  </Link>
-                  <Link 
-                    href="https://www.instagram.com/dericjyyee/"
+                    href="https://www.instagram.com/dericyjy/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"

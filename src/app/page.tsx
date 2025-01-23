@@ -353,7 +353,7 @@ export default function Home() {
                     LinkedIn
                   </Link>
                   <Link 
-                    href="https://www.instagram.com/dericjyyee/" 
+                    href="https://www.instagram.com/dericyjy/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
@@ -367,14 +367,6 @@ export default function Home() {
                     className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
                   >
                     TikTok
-                  </Link>
-                  <Link 
-                    href="https://x.com/dericjyyee" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
-                  >
-                    X (Twitter)
                   </Link>
                   <a 
                     href="mailto:deric.yee@gmail.com" 

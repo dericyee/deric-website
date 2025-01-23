@@ -420,7 +420,7 @@ export default function About() {
                       href="/"
                       className="text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
                     >
-                      Back to home
+                      Home
                     </Link>
                   </div>
                 </div>
@@ -445,7 +445,7 @@ export default function About() {
                       LinkedIn
                     </Link>
                     <Link 
-                      href="https://www.instagram.com/dericjyyee/" 
+                      href="https://www.instagram.com/dericyjy/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
@@ -459,14 +459,6 @@ export default function About() {
                       className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
                     >
                       TikTok
-                    </Link>
-                    <Link 
-                      href="https://x.com/dericjyyee" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
-                    >
-                      X (Twitter)
                     </Link>
                     <a 
                       href="mailto:deric.yee@gmail.com" 
