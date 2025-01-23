@@ -117,205 +117,226 @@ export default function Home() {
             </div>
           </motion.div>
 
+          {/* Media */}
+          <motion.div className="mt-24 mb-24" variants={fadeIn}>
+            <h2 className="text-2xl font-medium mb-8">In the media</h2>
+            <p className="text-xl text-[var(--muted)] mb-8">Featured in major Malaysian media outlets for my work in tech education and entrepreneurship.</p>
+            <motion.div 
+              className="grid grid-cols-1 md:grid-cols-2 gap-6"
+              variants={stagger}
+            >
+              <Link 
+                href="https://www.theedgemarkets.com/node/652412" 
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/edge.jpg"
+                    alt="The Edge Malaysia Feature"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">The Edge Malaysia</h3>
+                      <p className="text-sm text-white/90">Edutech: Coding computers and decoding talents</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://www.disruptr.co/sigma-school-malaysia-coding-bootcamp/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/disruptr.jpg"
+                    alt="Disruptr Feature"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">Disruptr</h3>
+                      <p className="text-sm text-white/90">Malaysia's First Income Share Agreement Coding Bootcamp</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://www.bfm.my/podcast/enterprise/open-for-business/get-a-job-or-your-money-back" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/bfm.jpg"
+                    alt="BFM 89.9 Interview"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">BFM 89.9</h3>
+                      <p className="text-sm text-white/90">Get a Job or Your Money Back</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://www.astroawani.com/videos/notepad-ibrahim-sani-x7ko7m/notepad-ibrahim-sani-transform-life-tech-x8ovuiv" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/astro.jpg"
+                    alt="Astro Awani Interview"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">Astro Awani</h3>
+                      <p className="text-sm text-white/90">Transform Life Through Tech</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://vulcanpost.com/855914/codeo-malaysia-duolingo-for-coding-app/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/vulcan.jpg"
+                    alt="Vulcan Post Feature"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
+                      <p className="text-sm text-white/90">The Duolingo for Coding App</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          </motion.div>
+
+          {/* YouTube */}
+          <motion.div className="mb-16" variants={fadeIn}>
+            <h2 className="text-2xl font-bold mb-4">YouTube Channel</h2>
+            <Link 
+              href="https://www.youtube.com/@dericyjy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 border border-[var(--border)] rounded-lg hover:bg-[var(--card)] hover:opacity-80 transition-colors block"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
+                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="font-semibold">🎥 My Youtube Channel</h3>
+                  <p className="text-gray-400">I make videos documenting my learnings in tech, AI & startups!</p>
+                </div>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Timeline */}
+          <motion.div className="mb-16" variants={fadeIn}>
+            <h2 className="text-2xl font-bold mb-4">Timeline</h2>
+            <motion.div 
+              className="space-y-8"
+              variants={stagger}
+            >
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2016</div>
+                <h3 className="font-semibold mb-1">First self-made dollar</h3>
+                <p className="text-gray-400">Sold used graphical calculators to college students. Profitable but couldn't scale</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2018</div>
+                <h3 className="font-semibold mb-1">First exposure to startups</h3>
+                <p className="text-gray-400">Founding team of a Student VC firm in my uni. Got super passionate</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2019</div>
+                <h3 className="font-semibold mb-1">First line of code</h3>
+                <p className="text-gray-400">Wanted to be a builder instead of a financier. Left my job to learn code</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2020</div>
+                <h3 className="font-semibold mb-1">First dollar in tech</h3>
+                <p className="text-gray-400">Did whatever I could to survive - taught uni students how to code, hired for freelancing projects, built full stack projects for a cheap price to build my portfolio & experience</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2021</div>
+                <h3 className="font-semibold mb-1">First (few) tech startups</h3>
+                <p className="text-gray-400">Got too excited once I could ship products. Burned $150k+. All failed. Learned a ton tho</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2022</div>
+                <h3 className="font-semibold mb-1">Launched Sigma School</h3>
+                <p className="text-gray-400">Split with my previous business partner. Did my own thing. Launched Sigma School with only 1 community-based course on full stack web development. Did my first $100k online, fully automated by digital marketing funnels, without needing me to speak to anyone. Really game changer & turning point in my life</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2023</div>
+                <h3 className="font-semibold mb-1">Pivoted to bootcamp model</h3>
+                <p className="text-gray-400">Pivoted to the coding bootcamp model. With a brand new pitch. 3 month bootcamp. Get a job, or it&apos;s 100% free. Got an office, led a team of 15, Worked on tech consulting & software projects for cash flow.</p>
+              </motion.div>
+
+              <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
+                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                <div className="text-sm text-[var(--muted)] mb-1">2024</div>
+                <h3 className="font-semibold mb-1">Business stabilization</h3>
+                <p className="text-gray-400">Stabilise the business model. Focuse on people, product, & process so the company could run on its own without my active involvement. Didn&apos;t really achieve it. But much closer to it. Hit my first USD80k/month. Launched Codeo.ai with my brother - The mobile app to self learn coding.</p>
+              </motion.div>
+
+              <motion.div variants={fadeIn}>
+                <div className="relative pl-8 border-l border-[var(--border)]">
+                  <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
+                  <div className="text-sm text-[var(--muted)] mb-1">2025</div>
+                  <h3 className="font-semibold mb-1">Future focus</h3>
+                  <p className="text-gray-400">Exploring the future of education and work. Launching 3 new courses - Full stack web dev with AI, data analytics with AI, digital marketing with AI. Finding more partners. Going deep into AI, Web3 & media this year.</p>
+                </div>
+              </motion.div>
+            </motion.div>
+          </motion.div>
+
           {/* Footer */}
           <Footer />
         </div>
-
-        {/* Media */}
-        <motion.div className="mt-24 mb-24" variants={fadeIn}>
-          <h2 className="text-2xl font-medium mb-8">In the media</h2>
-          <p className="text-xl text-[var(--muted)] mb-8">Featured in major Malaysian media outlets for my work in tech education and entrepreneurship.</p>
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 gap-6"
-            variants={stagger}
-          >
-            <Link 
-              href="https://www.theedgemarkets.com/node/652412" 
-              target="_blank"
-              rel="noopener noreferrer" 
-              className="group block"
-            >
-              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                <Image
-                  src="/edge.jpg"
-                  alt="The Edge Malaysia Feature"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="font-medium text-lg mb-2 text-white">The Edge Malaysia</h3>
-                    <p className="text-sm text-white/90">Edutech: Coding computers and decoding talents</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link 
-              href="https://www.disruptr.co/sigma-school-malaysia-coding-bootcamp/" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                <Image
-                  src="/disruptr.jpg"
-                  alt="Disruptr Feature"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="font-medium text-lg mb-2 text-white">Disruptr</h3>
-                    <p className="text-sm text-white/90">Malaysia's First Income Share Agreement Coding Bootcamp</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link 
-              href="https://www.bfm.my/podcast/enterprise/open-for-business/get-a-job-or-your-money-back" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                <Image
-                  src="/bfm.jpg"
-                  alt="BFM 89.9 Interview"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="font-medium text-lg mb-2 text-white">BFM 89.9</h3>
-                    <p className="text-sm text-white/90">Get a Job or Your Money Back</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link 
-              href="https://www.astroawani.com/videos/notepad-ibrahim-sani-x7ko7m/notepad-ibrahim-sani-transform-life-tech-x8ovuiv" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                <Image
-                  src="/astro.jpg"
-                  alt="Astro Awani Interview"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="font-medium text-lg mb-2 text-white">Astro Awani</h3>
-                    <p className="text-sm text-white/90">Transform Life Through Tech</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link 
-              href="https://vulcanpost.com/855914/codeo-malaysia-duolingo-for-coding-app/" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                <Image
-                  src="/vulcan.jpg"
-                  alt="Vulcan Post Feature"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
-                    <p className="text-sm text-white/90">The Duolingo for Coding App</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </motion.div>
-        </motion.div>
-
-        {/* YouTube */}
-        <motion.div className="mb-16" variants={fadeIn}>
-          <h2 className="text-2xl font-bold mb-4">YouTube Channel</h2>
-          <Link 
-            href="https://www.youtube.com/@dericjyyee"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-4 border border-[var(--border)] rounded-lg hover:bg-[var(--card)] hover:opacity-80 transition-colors block"
-          >
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
-                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-semibold">🎥 My Youtube Channel</h3>
-                <p className="text-gray-400">I make videos documenting my learnings in tech, AI & startups!</p>
-              </div>
-            </div>
-          </Link>
-        </motion.div>
-
-        {/* Timeline */}
-        <motion.div className="mb-16" variants={fadeIn}>
-          <h2 className="text-2xl font-bold mb-4">Timeline</h2>
-          <motion.div 
-            className="space-y-8"
-            variants={stagger}
-          >
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2016</div>
-              <h3 className="font-semibold mb-1">First self-made dollar</h3>
-              <p className="text-gray-400">Sold used graphical calculators to college students. Profitable but couldn't scale</p>
-            </motion.div>
-
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2018</div>
-              <h3 className="font-semibold mb-1">First exposure to startups</h3>
-              <p className="text-gray-400">Founding team of a Student VC firm in my uni. Got super passionate</p>
-            </motion.div>
-
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2019</div>
-              <h3 className="font-semibold mb-1">First line of code</h3>
-              <p className="text-gray-400">Wanted to be a builder instead of a financier. Left my job to learn code</p>
-            </motion.div>
-
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2020</div>
-              <h3 className="font-semibold mb-1">First dollar in tech</h3>
-              <p className="text-gray-400">Did whatever I could to survive - taught code, hired for freelancing projects</p>
-            </motion.div>
-
-            <motion.div className="relative pl-8 border-l border-[var(--border)]" variants={fadeIn}>
-              <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-              <div className="text-sm text-[var(--muted)] mb-1">2021</div>
-              <h3 className="font-semibold mb-1">First (few) tech startups</h3>
-              <p className="text-gray-400">Got too excited once I could ship products. All failed. Learned a ton</p>
-            </motion.div>
-
-            <motion.div variants={fadeIn}>
-              <div className="relative pl-8 border-l border-[var(--border)]">
-                <div className="absolute w-3 h-3 bg-[var(--border)] rounded-full -left-[6.5px]"></div>
-                <div className="text-sm text-[var(--muted)] mb-1">2022 - present</div>
-                <h3 className="font-semibold mb-1">Since then</h3>
-                <p className="text-gray-400">$600k/yr - tech consulting & projects, education & recruitment. Exploring the future of education and work, with AI. Deep into working with AI.</p>
-              </div>
-            </motion.div>
-          </motion.div>
-        </motion.div>
       </motion.div>
     </main>
   );
