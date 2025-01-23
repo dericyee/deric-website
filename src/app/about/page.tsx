@@ -358,7 +358,8 @@ export default function About() {
                   <motion.p variants={fadeIn}>2021: Learned to to teach coding & close clients for software development projects to pay the bills.</motion.p>
                   <motion.p variants={fadeIn}>2022: Launched my 3 month coding bootcamp - Sigma School.</motion.p>
                   <motion.p variants={fadeIn}>2023: Got our first office in Puchong, Malaysia & figured out how to automate sales through digital marketing channels.</motion.p>
-                  <motion.p variants={fadeIn}>2024: Learned to implement Entrepreneur Operation System (EOS) for my company, and realised the importance of People & Culture in. Dabbling in content creation now!</motion.p>
+                  <motion.p variants={fadeIn}>2024: Learned to implement Entrepreneur Operation System (EOS) for my company, and realised the importance of People & Culture. Dabbling in content creation now!</motion.p>
+                  <motion.p variants={fadeIn}>2025: I&apos;m going all-in on AI, Web3 & Content creation. I'm also going to learn surfing and snowboarding!</motion.p>
                 </motion.div>
               </motion.div>
 
@@ -389,7 +390,7 @@ export default function About() {
             <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
               <motion.p variants={fadeIn}>I have tons of ideas and plans! And I know I can&apos;t do it all alone. Always down to chat if there&apos;s funding or collaboration opportunities!</motion.p>
               <motion.p variants={fadeIn}>
-                Reach me on <a href="https://www.linkedin.com/in/dericyeejiyong/" target="_blank" rel="noopener noreferrer" className="text-[var(--foreground)] hover:underline font-medium">LinkedIn</a> or write me an email at{" "}
+                Reach me on <a href="https://www.linkedin.com/in/dericyjy/" target="_blank" rel="noopener noreferrer" className="text-[var(--foreground)] hover:underline font-medium">LinkedIn</a> or write me an email at{" "}
                 <a 
                   href="mailto:deric.yee@gmail.com" 
                   className="text-[var(--foreground)] hover:underline font-medium"

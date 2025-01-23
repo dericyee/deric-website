@@ -26,7 +26,7 @@ const Footer = () => {
             <h3 className="text-sm font-medium mb-4">Social</h3>
             <div className="space-y-3">
               <Link 
-                href="https://www.youtube.com/@dericjyyee" 
+                href="https://www.youtube.com/@dericyjy" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
@@ -34,7 +34,7 @@ const Footer = () => {
                 YouTube
               </Link>
               <Link 
-                href="https://www.linkedin.com/in/dericyeejiyong/" 
+                href="https://www.linkedin.com/in/dericyjy/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
@@ -50,7 +50,7 @@ const Footer = () => {
                 Instagram
               </Link>
               <Link 
-                href="https://www.tiktok.com/@dericjyyee" 
+                href="https://www.tiktok.com/@dericyjy" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"

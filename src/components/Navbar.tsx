@@ -54,7 +54,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                 </Link>
                 <div className="flex items-center gap-2">
                   <Link 
-                    href="https://www.youtube.com/@dericjyyee"
+                    href="https://www.youtube.com/@dericyjy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
@@ -64,7 +64,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                     </svg>
                   </Link>
                   <Link 
-                    href="https://www.linkedin.com/in/dericyeejiyong/"
+                    href="https://www.linkedin.com/in/dericyjy/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
