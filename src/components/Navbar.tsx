@@ -93,6 +93,16 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                       <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
                     </svg>
                   </Link>
+                  <Link 
+                    href="https://medium.com/@dericyee"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                    </svg>
+                  </Link>
                   <a 
                     href="mailto:deric.yee@gmail.com"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
