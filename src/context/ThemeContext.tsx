@@ -12,13 +12,17 @@ type ThemeContextType = {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme') as Theme;
     if (savedTheme) {
       setTheme(savedTheme);
       document.documentElement.classList.toggle('light-mode', savedTheme === 'light');
+    } else {
+      // Set light mode as default if no theme is saved
+      localStorage.setItem('theme', 'light');
+      document.documentElement.classList.add('light-mode');
     }
   }, []);
 

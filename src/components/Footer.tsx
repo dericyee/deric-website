@@ -57,8 +57,8 @@ const Footer = () => {
               >
                 TikTok
               </Link>
-              <Link 
-                href="https://medium.com/@dericyee" 
+              <Link
+                href="https://dericyee.medium.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
