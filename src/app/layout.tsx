@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Deric Yee - Tech, AI, Web3",
+  title: "Deric Yee - EdTech, AI, Web3",
   description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp, and scaled multiple tech ventures to $80k/month.",
   keywords: ["tech entrepreneur", "AI educator", "Sigma School", "coding bootcamp", "Malaysia", "Deric Yee", "tech education", "Codeo.ai", "Jobier"],
   authors: [{ name: "Deric Yee" }],
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     apple: '/profile.jpg',
   },
   openGraph: {
-    title: "Deric Yee - Tech, AI, Web3",
+    title: "Deric Yee - EdTech, AI, Web3",
     description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp.",
     url: "https://dericyee.com",
     siteName: "Deric Yee",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deric Yee - Tech, AI, Web3",
+    title: "Deric Yee - EdTech, AI, Web3",
     description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp.",
     creator: "@dericjyyee",
     images: ["/profile.jpg"],
