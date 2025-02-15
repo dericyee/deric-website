@@ -74,7 +74,7 @@ export default function Home() {
                 education and work
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
@@ -135,6 +135,25 @@ export default function Home() {
                     <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
                       <p>Your Personal AI Job Assistant.</p>
                       <p>Upload your CV, set preferences, and get 100+ tailored job applications daily, even while you sleep.</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href="#" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+                <div className="flex flex-col h-full">
+                  <div className="flex items-center gap-2 mb-6">
+                    <h2 className="text-lg tracking-tight">Sigma Studios</h2>
+                    <span className="text-2xl">🚀</span>
+                  </div>
+                  <div>
+                    <div className="flex gap-2 mb-4">
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400">AI</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400">Automation</span>
+                    </div>
+                    <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
+                      <p>Full Stack Web Development, AI & Process Automation Agency.</p>
+                      <p>Helping businesses harness AI to optimize operations.</p>
                     </div>
                   </div>
                 </div>

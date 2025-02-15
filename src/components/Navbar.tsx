@@ -94,20 +94,17 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                     </svg>
                   </Link>
                   <Link
-                    href="https://dericyee.medium.com/"
+                    href="https://deric.beehiiv.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1.5 rounded-lg bg-[var(--card)] hover:bg-[var(--card-hover)] transition-colors"
                   >
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
+                      className="w-4 h-4"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="w-4 h-4"
                     >
-                      <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 4v3h-3V8h3zm-4 0v3H9V8h6zM4 8h4v3H4V8zm0 4h4v3H4v-3zm5 0h6v3H9v-3zm7 0h3v3h-3v-3zm3 4v2H4v-2h15z"/>
                     </svg>
                   </Link>
                   <a 

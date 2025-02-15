@@ -85,6 +85,14 @@ export default function About() {
 
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Biography</h2>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/biography.jpg"
+                  alt="Biography"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <p className="text-sm md:text-base text-[var(--muted)] mb-8">
                 Hi—this is a brief biography of myself. A snapshot of my journey, my beliefs, and the lessons I&apos;ve picked up along the way. Written in February 2025.
               </p>
@@ -98,7 +106,16 @@ export default function About() {
               </ul>
 
               <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">My early life</h3>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/early-life.jpg"
+                  alt="Early Life"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)] mb-8">
+                <p>With my boys from high school. 2016.</p>
                 <p>I grew up in Malaysia, caught between two contrasting realities: the traditional path of job security and stability, and the rapidly emerging world of tech, business, and global opportunities.</p>
                 <p>My parents were part of Malaysia&apos;s first generation of university graduates, navigating the country&apos;s economic transition. They weren&apos;t rich by any means—money was tight, and they worked extremely hard, staying loyal to their companies.</p>
                 <p>But no matter how difficult things got, they always prioritized my education, doing their best with the knowledge and resources they had.</p>
@@ -140,7 +157,17 @@ export default function About() {
               </div>
 
               <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">Early Adulthood & University</h3>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/university.jpg"
+                  alt="University"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)] mb-8">
+              <p>Last day of my university life in UK. 2019.</p>
+
                 <p>When I entered university, I had no real direction. First, I wanted to do Biotechnology. Then Medicine. Then Dentistry. Finally, after countless conversations with family and friends about what was &quot;safer,&quot; I landed on Accounting and Finance. All of these shifts happened within a few months. At 18, I felt like I had to decide my entire future within three months—otherwise, I&apos;d be &quot;falling behind.&quot;</p>
                 <p>The irony? I had no clue how accounting worked. I&apos;d been a science student my whole life. In hindsight, my choices weren&apos;t truly mine. They were echoes of the expectations and advice planted in me by the people around me.</p>
                 <p>Once in the UK, I did what I thought was expected—studied hard. Too hard. I regret not taking more time to explore, experiment, and develop other aspects of my life. But even with that, my years abroad were easily some of the best. Not because of the education, but because of the cultural exposure, the people I met, the opportunities I stumbled upon, and the shift in mindset.</p>
@@ -156,7 +183,16 @@ export default function About() {
               </div>
 
               <h3 className="text-xl font-bold mb-4 text-[var(--foreground)]">The Self-Learning Journey Begins</h3>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/self-learning.jpg"
+                  alt="Self Learning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)] mb-8">
+              <p>Just started learning to code during my trip to Singapore with my ex girlfriend. 2019.</p>
                 <p>The decision was simple.</p>
                 <p>I wanted to build startups. I was inspired by people like Steve Jobs, who built the iPhone, and SaaS founders who created something once and scaled it to millions—all while generating stable, recurring revenue. During my VC days I met an indie hacker who was making $20,000-ish per month, just him, his code, and a small team of admins.</p>
                 <p>It was a dream.</p>
@@ -231,8 +267,69 @@ export default function About() {
             </section>
 
             <section className="mb-12">
+              <motion.h3 className="text-2xl font-bold mb-6 text-[var(--foreground)] mt-8" variants={fadeIn}>My first venture - The Hacker Collective: A peer-to-peer learning community</motion.h3>
+              <motion.div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden" variants={fadeIn}>
+                <Image
+                  src="/hacker-collective.jpg"
+                  alt="The Hacker Collective"
+                  fill
+                  className="object-cover"
+                />
+              </motion.div>
+              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
+              <motion.p variants={fadeIn}>My very first group HiPO (High Performance) learning group. 2020. </motion.p>
+                <motion.p variants={fadeIn}>This was when I fully embraced output-based learning.</motion.p>
+                <motion.p variants={fadeIn}>I gave myself a challenge: build one project every month.</motion.p>
+                <motion.p variants={fadeIn}>Learning to code alone was lonely. So, I started organizing meetups on Meetup.com, Eventbrite, and Facebook Groups. The response was insane.</motion.p>
+                <motion.p variants={fadeIn}>There were tons of people who wanted to learn, so we just met up weekly, using free resources like Codecademy.</motion.p>
+                <motion.p variants={fadeIn}>But within a month, many dropped out. Learning to code was hard, and everyone progressed at different speeds.</motion.p>
+                <motion.p variants={fadeIn}>I didn&apos;t plan on teaching, but it became necessary. And because I was putting in so much effort, I started charging:</motion.p>
+                <motion.p variants={fadeIn}>Eventually, I found myself not just organizing the sessions but actually teaching them and presenting to a class.</motion.p>
+                <motion.p variants={fadeIn}>It was stressful, but teaching forced me to fill the gaps in my own knowledge. I wanted a true peer-to-peer learning model, but it didn&apos;t work. Since I was doing the teaching anyway, I started charging for it.</motion.p>
+                <motion.p variants={fadeIn}>When I met Ming, I was deep into my self-learning journey, still figuring things out. He was two years ahead of me, building and launching projects on his own. Seeing what he could do lit a fire in me. It made me realize: this is possible. You don&apos;t need a CS degree. You don&apos;t need permission. You just need to start building.</motion.p>
+                <motion.p variants={fadeIn}>That mindset led to The Hacker Collective—a community where people could learn to code, build projects, and break into tech together.</motion.p>
+              </motion.div>
+
+              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)] mt-4" variants={stagger}>
+                <motion.ul className="list-disc pl-6 space-y-3" variants={stagger}>
+                  <motion.li variants={fadeIn}>CS/IT graduates started paying me for 1-on-1 sessions to mentor them and prep them for job interviews.</motion.li>
+                  <motion.li variants={fadeIn}>Peer learning groups ran at RM300/month—structured cohorts where we learned together.</motion.li>
+                  <motion.li variants={fadeIn}>Freelance software & CTO-as-a-service—I took on projects to fund our growth, sometimes taking equity in startups instead of cash. (Most of these startups failed, but I learned a lot.)</motion.li>
+                  <motion.li variants={fadeIn}>My first software developer hire landed a job in Singapore for $4.5K/month—he was super junior when I hired him, but I coached him into a solid developer. That was proof that our method worked.</motion.li>
+                  <motion.li variants={fadeIn}>More than 10 of our students landed jobs in tech—some in Malaysia, some in Singapore, some even remote for global companies.</motion.li>
+                </motion.ul>
+              </motion.div>
+
+              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)] mt-4" variants={stagger}>
+                <motion.p variants={fadeIn}>These weren&apos;t people with CS degrees. Many came from completely different backgrounds—finance, marketing, even construction. But through our learn-by-doing approach, they built real skills that companies wanted.</motion.p>
+                <motion.p variants={fadeIn}>Seeing people go from zero to employed was what made it all worth it. It proved that the system worked. You didn&apos;t need a CS degree. You didn&apos;t need years of experience. You just needed real-world skills and proof of work.</motion.p>
+                <motion.p variants={fadeIn}>This was just the beginning.</motion.p>
+                <motion.p variants={fadeIn}>But as The Hacker Collective grew, Ming and I started diverging in vision.</motion.p>
+                <motion.p variants={fadeIn}>Ming was more into the venture-building side—he wanted to create startups and incubate founders. I was obsessed with education—helping people break into tech through real-world, hands-on learning.</motion.p>
+                <motion.p variants={fadeIn}>So, we split.</motion.p>
+              </motion.div>
+
+              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)] mt-4" variants={stagger}>
+                <motion.ul className="list-disc pl-6 space-y-3" variants={stagger}>
+                  <motion.li variants={fadeIn}>Ming took over the ventures arm—focusing on startup incubation and funding.</motion.li>
+                  <motion.li variants={fadeIn}>I took over the education arm—doubling down on coding bootcamps, mentorship, and career placement.</motion.li>
+                </motion.ul>
+                <motion.p variants={fadeIn}>It was a tough but necessary split. And it laid the foundation for everything I built afterward.</motion.p>
+              </motion.div>
+            </section>
+
+            <section className="mb-12">
               <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Sigma School</h2>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/sigma-school.jpg"
+                  alt="Sigma School"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)]">
+                <p>Graduation day of Sigma School's August batch. 2024.</p>
                 <p>After immersing myself in the world of startups and self-learning, I realized that many aspiring tech enthusiasts faced similar challenges—loneliness in their learning journey, difficulty in maintaining motivation, and a lack of structured guidance.</p>
                 <p>Inspired by coding bootcamps like Lambda School in the U.S., which offers a model where students paid only when they secured a job, I envisioned creating a community that addressed these issues.</p>
                 <p>However, due to legal constraints in Malaysia, the excessive fees that we need to charge to make this happen, and other challenges, implementing an income share agreement model proved unfeasible.</p>
@@ -322,7 +419,16 @@ export default function About() {
 
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">My First AI Agent Startup – Jobier</h2>
+              <div className="relative w-full aspect-[16/9] mb-8 rounded-xl overflow-hidden">
+                <Image
+                  src="/jobier.jpg"
+                  alt="Jobier"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)]">
+                <p>Adrian & I recording Jobier's intro video. 2025.</p>
                 <p>After mentoring hundreds of students at Sigma School, I saw a recurring pain point—getting a job was way harder than it needed to be. The process was broken. Students were spending months applying manually, struggling with rejections, and wasting time on repetitive tasks instead of focusing on actual skill-building.</p>
                 <p>That's why I built Jobier—my first AI agent startup.</p>
                 <p>Jobier automates the job search process, helping candidates apply to the right jobs, optimize their resumes, and even prep for interviews—all without the usual stress. It's not just another job board; it's an AI-powered job-hunting assistant designed to help people land jobs faster.</p>
@@ -348,146 +454,146 @@ export default function About() {
               </div>
             </section>
 
-            {/* Future Focus */}
-            <motion.div className="mt-24 mb-24" variants={fadeIn}>
-              <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head&apos;s at now</h2>
-              <motion.p className="text-sm md:text-base text-[var(--muted)] mb-12" variants={fadeIn}>
-                I&apos;m learning and educating myself daily on what I believe will shape our future:
-              </motion.p>
-              
-              <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" variants={stagger}>
-                <motion.div 
-                  className="p-6 bg-gradient-to-br from-purple-500/20 to-pink-500/20 hover:from-purple-500/30 hover:to-pink-500/30 transition-all rounded-xl"
-                  variants={fadeIn}
-                >
-                  <div className="text-6xl mb-6">🤖</div>
-                  <div className="space-y-4">
-                    <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 inline-block text-transparent bg-clip-text">Artificial Intelligence</h3>
-                    <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
-                      <p>The most transformative technology of our time.</p>
-                      <p>AI will augment every aspect of human capability.</p>
-                    </div>
+          {/* Future Focus */}
+          <motion.div className="mt-24 mb-24" variants={fadeIn}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Where my head&apos;s at now</h2>
+            <motion.p className="text-sm md:text-base text-[var(--muted)] mb-12" variants={fadeIn}>
+              I&apos;m learning and educating myself daily on what I believe will shape our future:
+            </motion.p>
+            
+            <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6" variants={stagger}>
+              <motion.div 
+                className="p-6 bg-gradient-to-br from-purple-500/20 to-pink-500/20 hover:from-purple-500/30 hover:to-pink-500/30 transition-all rounded-xl"
+                variants={fadeIn}
+              >
+                <div className="text-6xl mb-6">🤖</div>
+                <div className="space-y-4">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 inline-block text-transparent bg-clip-text">Artificial Intelligence</h3>
+                  <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
+                    <p>The most transformative technology of our time.</p>
+                    <p>AI will augment every aspect of human capability.</p>
                   </div>
-                </motion.div>
+                </div>
+              </motion.div>
 
-                <motion.div 
-                  className="p-6 bg-gradient-to-br from-orange-500/20 to-yellow-500/20 hover:from-orange-500/30 hover:to-yellow-500/30 transition-all rounded-xl"
-                  variants={fadeIn}
-                >
-                  <div className="text-6xl mb-6">₿</div>
-                  <div className="space-y-4">
-                    <h3 className="text-xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 inline-block text-transparent bg-clip-text">Bitcoin</h3>
-                    <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
-                      <p>The hardest form of money ever created.</p>
-                      <p>A revolutionary technology that separates money from state.</p>
-                    </div>
+              <motion.div 
+                className="p-6 bg-gradient-to-br from-orange-500/20 to-yellow-500/20 hover:from-orange-500/30 hover:to-yellow-500/30 transition-all rounded-xl"
+                variants={fadeIn}
+              >
+                <div className="text-6xl mb-6">₿</div>
+                <div className="space-y-4">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 inline-block text-transparent bg-clip-text">Bitcoin</h3>
+                  <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
+                    <p>The hardest form of money ever created.</p>
+                    <p>A revolutionary technology that separates money from state.</p>
                   </div>
-                </motion.div>
+                </div>
+              </motion.div>
 
-                <motion.div 
-                  className="p-6 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 hover:from-blue-500/30 hover:to-cyan-500/30 transition-all rounded-xl"
-                  variants={fadeIn}
-                >
-                  <div className="text-6xl mb-6">📱</div>
-                  <div className="space-y-4">
-                    <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 inline-block text-transparent bg-clip-text">Media</h3>
-                    <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
-                      <p>The power to influence and educate at scale.</p>
-                      <p>Creating content that adds value and inspires action.</p>
-                    </div>
+              <motion.div 
+                className="p-6 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 hover:from-blue-500/30 hover:to-cyan-500/30 transition-all rounded-xl"
+                variants={fadeIn}
+              >
+                <div className="text-6xl mb-6">📱</div>
+                <div className="space-y-4">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 inline-block text-transparent bg-clip-text">Media</h3>
+                  <div className="space-y-2 text-sm md:text-base text-[var(--muted)]">
+                    <p>The power to influence and educate at scale.</p>
+                    <p>Creating content that adds value and inspires action.</p>
                   </div>
-                </motion.div>
+                </div>
               </motion.div>
             </motion.div>
+          </motion.div>
 
-            {/* What Makes Me Feel Alive - Misogi */}
-            <motion.div className="mb-24" variants={fadeIn}>
-              <motion.div className="space-y-8" variants={stagger}>
-                <motion.div variants={fadeIn}>
-                  <h2 className="text-2xl font-medium mb-4 text-[var(--foreground)]">My Misogi Goals for 2025</h2>
-                  <p className="text-sm md:text-base text-[var(--muted)] mb-8 leading-relaxed">
-                    There&apos;s an ancient Japanese ritual called a MISOGI. You do one defining thing every year. Something scary, something hard, something you&apos;re proud of. It DEFINES your year.
-                  </p>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <motion.div 
-                      className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
-                      whileHover={{ scale: 1.02 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <Image
-                        src="/misogi/run.jpg"
-                        alt="Running"
-                        fill
-                        className="object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
-                        <div>
-                          <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏃‍♂️ Complete 21KM run in 2 hours 30 mins</h3>
-                        </div>
+          {/* What Makes Me Feel Alive - Misogi */}
+          <motion.div className="mb-24" variants={fadeIn}>
+            <motion.div className="space-y-8" variants={stagger}>
+              <motion.div variants={fadeIn}>
+                <h2 className="text-2xl font-medium mb-4 text-[var(--foreground)]">My Misogi Goals for 2025</h2>
+                <p className="text-sm md:text-base text-[var(--muted)] mb-8 leading-relaxed">
+                  There&apos;s an ancient Japanese ritual called a MISOGI. You do one defining thing every year. Something scary, something hard, something you&apos;re proud of. It DEFINES your year.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <motion.div 
+                    className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src="/misogi/run.jpg"
+                      alt="Running"
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
+                      <div>
+                        <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏃‍♂️ Complete 21KM run in 2 hours 30 mins</h3>
                       </div>
-                    </motion.div>
+                    </div>
+                  </motion.div>
 
-                    <motion.div 
-                      className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
-                      whileHover={{ scale: 1.02 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <Image
-                        src="/misogi/guitar.jpg"
-                        alt="Guitar"
-                        fill
-                        className="object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
-                        <div>
-                          <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🎸 Learn to play 3 full songs on the guitar</h3>
-                        </div>
+                  <motion.div 
+                    className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src="/misogi/guitar.jpg"
+                      alt="Guitar"
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
+                      <div>
+                        <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🎸 Learn to play 3 full songs on the guitar</h3>
                       </div>
-                    </motion.div>
+                    </div>
+                  </motion.div>
 
-                    <motion.div 
-                      className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
-                      whileHover={{ scale: 1.02 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <Image
-                        src="/misogi/surf.jpg"
-                        alt="Surfing"
-                        fill
-                        className="object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
-                        <div>
-                          <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏄‍♂️ Learn to surf in Bali</h3>
-                        </div>
+                  <motion.div 
+                    className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src="/misogi/surf.jpg"
+                      alt="Surfing"
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
+                      <div>
+                        <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏄‍♂️ Learn to surf in Bali</h3>
                       </div>
-                    </motion.div>
+                    </div>
+                  </motion.div>
 
-                    <motion.div 
-                      className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
-                      whileHover={{ scale: 1.02 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <Image
-                        src="/misogi/snow.jpg"
-                        alt="Snowboarding"
-                        fill
-                        className="object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
-                        <div>
-                          <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏂 Learn to snowboard in Japan</h3>
-                        </div>
+                  <motion.div 
+                    className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden group"
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src="/misogi/snow.jpg"
+                      alt="Snowboarding"
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-[var(--card)]/20 flex items-end p-2 md:p-6">
+                      <div>
+                        <h3 className="text-sm md:text-base font-medium text-[var(--foreground)]">🏂 Learn to snowboard in Japan</h3>
                       </div>
-                    </motion.div>
-                  </div>
-                </motion.div>
+                    </div>
+                  </motion.div>
+                </div>
               </motion.div>
             </motion.div>
+          </motion.div>
 
             
             {/* Beliefs & Guiding Principles */}
-            <motion.div className="mb-24" variants={fadeIn}>
+          <motion.div className="mb-24" variants={fadeIn}>
               <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">Beliefs & Guiding Principles</h2>
               <motion.div className="space-y-8" variants={stagger}>
                 <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-6" variants={stagger}>
@@ -509,7 +615,7 @@ export default function About() {
                     <p className="text-sm md:text-base text-[var(--muted)]">
                       Whether it's through technology, people, or systems, I always look for ways to maximize impact with minimal effort.
                     </p>
-                  </motion.div>
+                </motion.div>
 
                   <motion.div 
                     className="p-6 bg-gradient-to-br from-orange-500/10 to-yellow-500/10 rounded-xl"
@@ -519,7 +625,7 @@ export default function About() {
                     <p className="text-sm md:text-base text-[var(--muted)]">
                       The best way to learn is by building. I believe in the "learn by shipping" approach.
                     </p>
-                  </motion.div>
+              </motion.div>
 
                   <motion.div 
                     className="p-6 bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-xl"
@@ -531,44 +637,44 @@ export default function About() {
                     </p>
                   </motion.div>
                 </motion.div>
+                </motion.div>
               </motion.div>
-            </motion.div>
 
             {/* What's Next */}
             <motion.div className="mb-24" variants={fadeIn}>
               <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[var(--foreground)]">What's Next?</h2>
-              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
+                <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
                 <motion.p variants={fadeIn}>
                   I have no plans to slow down. My goal is to keep building, learning, and pushing boundaries. Whether it's scaling my current businesses, launching new ventures, or mentoring the next generation of builders, I see this as just the beginning.
                 </motion.p>
                 <motion.p variants={fadeIn}>
                   If you're working on something interesting, let's connect. I'm always open to new ideas and collaborations.
                 </motion.p>
-              </motion.div>
             </motion.div>
+          </motion.div>
 
-            {/* Contact */}
-            <motion.div className="mb-24" variants={fadeIn}>
-              <h2 className="text-3xl font-bold mb-8 text-[var(--foreground)]">Invest in me or work with me</h2>
-              <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
-                <motion.p variants={fadeIn}>I have tons of ideas and plans! And I know I can&apos;t do it all alone. Always down to chat if there&apos;s funding or collaboration opportunities!</motion.p>
-                <motion.p variants={fadeIn}>
-                  Reach me on <a href="https://www.linkedin.com/in/dericyjy/" target="_blank" rel="noopener noreferrer" className="text-[var(--foreground)] hover:underline font-medium">LinkedIn</a> or write me an email at{" "}
-                  <a 
-                    href="mailto:deric.yee@gmail.com" 
-                    className="text-[var(--foreground)] hover:underline font-medium"
-                  >
-                    deric.yee@gmail.com
-                  </a>
-                </motion.p>
-              </motion.div>
+          {/* Contact */}
+          <motion.div className="mb-24" variants={fadeIn}>
+            <h2 className="text-3xl font-bold mb-8 text-[var(--foreground)]">Invest in me or work with me</h2>
+            <motion.div className="space-y-4 text-sm md:text-base text-[var(--muted)]" variants={stagger}>
+              <motion.p variants={fadeIn}>I have tons of ideas and plans! And I know I can&apos;t do it all alone. Always down to chat if there&apos;s funding or collaboration opportunities!</motion.p>
+              <motion.p variants={fadeIn}>
+                Reach me on <a href="https://www.linkedin.com/in/dericyjy/" target="_blank" rel="noopener noreferrer" className="text-[var(--foreground)] hover:underline font-medium">LinkedIn</a> or write me an email at{" "}
+                <a 
+                  href="mailto:deric.yee@gmail.com" 
+                  className="text-[var(--foreground)] hover:underline font-medium"
+                >
+                  deric.yee@gmail.com
+                </a>
+              </motion.p>
             </motion.div>
+          </motion.div>
 
-            {/* Footer */}
-            <Footer />
+          {/* Footer */}
+          <Footer />
           </div>
         </div>
       </motion.div>
     </main>
   );
-}
+} 

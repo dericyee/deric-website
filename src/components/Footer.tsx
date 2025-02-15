@@ -58,12 +58,12 @@ const Footer = () => {
                 TikTok
               </Link>
               <Link
-                href="https://dericyee.medium.com/"
+                href="https://deric.beehiiv.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
               >
-                Medium
+                Newsletter
               </Link>
               <a 
                 href="mailto:deric.yee@gmail.com" 
