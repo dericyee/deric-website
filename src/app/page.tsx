@@ -75,81 +75,106 @@ export default function Home() {
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+              <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+                <div className="absolute top-4 right-4 text-[var(--muted)] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <h2 className="text-lg tracking-tight">Sigma School</h2>
+                    <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">SigmaSchool.co</Link>
                     <span className="text-2xl">👩🏻‍💻</span>
                   </div>
                   <div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Tech</span>
-                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Education</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Skills</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Courses</span>
+
                     </div>
                     <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
-                      <p>The future of education.</p>
-                      <p>Learn new tech skills in 3 months.</p>
-                      <p>Job or 100% free.</p>
+                      <p>3 month bootcamp. Get a job. Or it's 100% free.</p>
                       <ul className="list-none space-y-2 mt-4">
                         <li>💻 Full stack web dev + AI</li>
                         <li>📊 Data analytics + AI</li>
                         <li>🚀 Digital marketing + AI</li>
+                        <li>🤖 AI agents & automation</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </Link>
 
-              <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+              <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+                <div className="absolute top-4 right-4 text-[var(--muted)] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <h2 className="text-lg tracking-tight">Codeo.ai</h2>
+                    <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">Codeo.ai</Link>
                     <span className="text-2xl">📱</span>
                   </div>
                   <div>
                     <div className="flex gap-2 mb-4">
-                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">AI</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">Mobile App</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">Learning</span>
-                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">Mobile</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-green-500/10 text-green-400">SaaS</span>
                     </div>
                     <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
-                      <p>Mobile app to help users self-learn coding.</p>
-                      <p>Duolingo for coders!</p>
+                      <p>Learn to code for free on your phone!</p>
+                      <p>All it takes is 10 minutes a day.</p>
                       <p>Available on iOS & Android.</p>
                     </div>
                   </div>
                 </div>
               </Link>
 
-              <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+              <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+                <div className="absolute top-4 right-4 text-[var(--muted)] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <h2 className="text-lg tracking-tight">tryJobier.com</h2>
+                    <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">TryJobier.com</Link>
                     <span className="text-2xl">🤝</span>
                   </div>
                   <div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400">Jobs</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400">AI</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400">SaaS</span>
+
                     </div>
                     <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
-                      <p>Your Personal AI Job Assistant.</p>
-                      <p>Upload your CV, set preferences, and get 100+ tailored job applications daily, even while you sleep.</p>
+                      <p>Your Personal Job AI Agent.</p>
+                      <p>Auto find & apply to the best jobs in the world, even while you sleep.</p>
                     </div>
                   </div>
                 </div>
               </Link>
 
-              <Link href="#" className="group p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+              <Link href="#" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+                <div className="absolute top-4 right-4 text-[var(--muted)] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <h2 className="text-lg tracking-tight">Sigma Studios</h2>
+                    <Link href="https://sigmastudios.co" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">SigmaStudios.co</Link>
                     <span className="text-2xl">🚀</span>
                   </div>
                   <div>
                     <div className="flex gap-2 mb-4">
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400">AI</span>
                       <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400">Automation</span>
+                      <span className="inline-flex text-[13px] font-medium px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400">Consultancy</span>
+
                     </div>
                     <div className="space-y-4 text-[15px] leading-relaxed text-[var(--muted)] font-light">
                       <p>Full Stack Web Development, AI & Process Automation Agency.</p>

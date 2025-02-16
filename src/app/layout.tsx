@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Deric Yee - EdTech, AI, Web3",
     description: "Tech & AI entrepreneur working on the future of education & work. Founded Sigma School, Malaysia's top coding bootcamp.",
-    creator: "@dericjyyee",
+    creator: "@dericyjy",
     images: ["/profile.jpg"],
   },
   robots: {
