@@ -98,8 +98,7 @@ export default function Home() {
                       <ul className="list-none space-y-2 mt-4">
                         <li>💻 Full stack web dev + AI</li>
                         <li>📊 Data analytics + AI</li>
-                        <li>🚀 Digital marketing + AI</li>
-                        <li>🤖 AI agents & automation</li>
+                        <li>🤖 AI coding, AI agents + automation</li>
                       </ul>
                     </div>
                   </div>
