@@ -83,7 +83,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">SigmaSchool.co</Link>
+                    <Link href="https://sigmaschool.co" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">Sigma School</Link>
                     <span className="text-2xl">👩🏻‍💻</span>
                   </div>
                   <div>
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">Codeo.ai</Link>
+                    <Link href="https://codeo.ai" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">Codeo</Link>
                     <span className="text-2xl">📱</span>
                   </div>
                   <div>
@@ -139,7 +139,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">TryJobier.com</Link>
+                    <Link href="https://tryjobier.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">Jobier</Link>
                     <span className="text-2xl">🤝</span>
                   </div>
                   <div>
@@ -165,8 +165,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">NorthStackAI.com</Link>
-                    <span className="text-2xl">🚀</span>
+                    <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">NorthStack</Link>
+                    <span className="text-2xl">🤖</span>
                   </div>
                   <div>
                     <div className="flex gap-2 mb-4">
@@ -399,6 +399,11 @@ export default function Home() {
                   <p className="text-gray-400">Exploring the future of education and work. Launching 3 new courses - Full stack web dev with AI, data analytics with AI, digital marketing with AI. Finding more partners. Going deep into AI, Web3 & media this year.</p>
                 </div>
               </motion.div>
+            </motion.div>
+            <motion.div className="mt-8" variants={fadeIn}>
+              <Link href="/about" className="text-[var(--muted)] hover:text-[var(--foreground)] transition-colors underline underline-offset-4">
+                Read the extended and updated version here →
+              </Link>
             </motion.div>
           </motion.div>
 
