@@ -38,7 +38,7 @@ const Navbar = ({ isHome = true }: NavbarProps) => {
                 <h1 className="text-lg md:text-2xl font-bold">Hi, I&apos;m Deric</h1>
               </div>
               <p className="text-xs md:text-base text-[var(--muted)] whitespace-pre-line">
-                👨‍💻 EdTech, AI & web3 builder.
+                👨‍💻 EdTech, AI & Web3 builder.
                 ⚡️ Working on the future of education & work.
                 📍 Based in Kuala Lumpur.
               </p>

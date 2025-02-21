@@ -43,7 +43,7 @@ export default function Home() {
           <motion.div variants={fadeIn} className="mb-8">
             <div className="w-full p-3 bg-card/30 rounded-lg border border-[var(--border)]">
               <div className="flex flex-col space-y-1 mb-2">
-                <h3 className="text-xs font-medium">Breaking The Mold with Deric Yee - A builder&apos;s journey through tech, AI, and Web3.</h3>
+                <h3 className="text-xs font-medium">Breaking The Mold with Deric Yee - A builder&apos;s journey through EdTech, AI, and Web3.</h3>
                 <p className="text-[11px] text-[var(--muted)]">
                   Weekly newsletters of no fluff, just real insights, hard lessons, and cool ideas from the trenches of startup life.
                 </p>
