@@ -165,7 +165,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">NorthStack</Link>
+                    <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">NorthStackAI.com</Link>
                     <span className="text-2xl">🚀</span>
                   </div>
                   <div>
