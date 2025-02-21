@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
               </Link>
 
-              <Link href="#" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
+              <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="group relative p-6 bg-card hover:bg-card/80 rounded-lg transition-colors">
                 <div className="absolute top-4 right-4 text-[var(--muted)] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
                   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M7 17L17 7M17 7H8M17 7V16" strokeLinecap="round" strokeLinejoin="round"/>
@@ -165,7 +165,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <Link href="https://sigmastudios.co" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">SigmaStudios.co</Link>
+                    <Link href="https://northstackai.com" target="_blank" rel="noopener noreferrer" className="text-lg tracking-tight hover:text-[var(--muted)] transition-colors border-b border-[var(--muted)]/30 group-hover:border-[var(--muted)] pb-0.5">NorthStack</Link>
                     <span className="text-2xl">🚀</span>
                   </div>
                   <div>

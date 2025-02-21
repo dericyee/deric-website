@@ -85,13 +85,13 @@ const Footer = () => {
               >
                 Sigma School
               </Link>
-              <Link 
-                href="https://sigmastudios.co" 
+              <Link
+                href="https://northstackai.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-[var(--muted)] hover:text-[var(--foreground)] transition-colors text-sm"
               >
-                Sigma Studios
+                NorthStack
               </Link>
               <Link 
                 href="https://codeo.ai" 

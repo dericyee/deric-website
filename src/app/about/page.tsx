@@ -409,10 +409,10 @@ export default function About() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">Sigma Studios - Full Stack Web Development & Automation Agency</h2>
+              <h2 className="text-2xl font-bold mb-6 text-[var(--foreground)]">NorthStack - Full Stack Web Development & Automation Agency</h2>
               <div className="space-y-4 text-sm md:text-base text-[var(--muted)]">
-                <p>After founding Sigma Studios, we achieved significant milestones, including securing clients with revenues reaching seven figures. I also took on roles as a fractional CTO, participating in board meetings, shaping strategy, and managing tech teams with allocated budgets. Despite these accomplishments, I found that traditional software development and client engagements no longer ignited my passion.</p>
-                <p>Recognizing the transformative potential of artificial intelligence, I decided to pivot Sigma Studios towards AI consultancy. I assembled a team of skilled contractors, and together, we've experienced modest yet promising growth. The interest from fellow entrepreneurs seeking to automate workflows and processes has been substantial, reaffirming my belief in this direction.</p>
+                <p>After founding NorthStack, we achieved significant milestones, including securing clients with revenues reaching seven figures. I also took on roles as a fractional CTO, participating in board meetings, shaping strategy, and managing tech teams with allocated budgets. Despite these accomplishments, I found that traditional software development and client engagements no longer ignited my passion.</p>
+                <p>Recognizing the transformative potential of artificial intelligence, I decided to pivot NorthStack towards AI consultancy. I assembled a team of skilled contractors, and together, we've experienced modest yet promising growth. The interest from fellow entrepreneurs seeking to automate workflows and processes has been substantial, reaffirming my belief in this direction.</p>
                 <p>Currently, my focus is on harnessing AI to drive innovation and efficiency for our clients. The enthusiasm and confidence I have in this path are unwavering, as I am convinced that AI holds the key to the future of business optimization.</p>
               </div>
             </section>
