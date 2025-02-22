@@ -188,7 +188,7 @@ export default function Home() {
           {/* Media */}
           <motion.div className="mt-24 mb-24" variants={fadeIn}>
             <h2 className="text-2xl font-medium mb-8">In the media</h2>
-            <p className="text-xl text-[var(--muted)] mb-8">Featured in major Malaysian media outlets for my work in tech education and entrepreneurship.</p>
+            <p className="text-xl text-[var(--muted)] mb-8">Featured in media outlets for my work in tech education and entrepreneurship.</p>
             <motion.div 
               className="grid grid-cols-1 md:grid-cols-2 gap-6"
               variants={stagger}
@@ -298,6 +298,28 @@ export default function Home() {
                     <div>
                       <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
                       <p className="text-sm text-white/90">The Duolingo for Coding App</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://vulcanpost.com/881129/sigma-school-malaysia-coding-bootcamp-academy/?noamp=mobile#google_vignette" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/vulcan-sigma.png"
+                    alt="Sigma School Vulcan Post Feature"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
+                      <p className="text-sm text-white/90">Learn tech in 3 months. Get a job, or 100% free.</p>
                     </div>
                   </div>
                 </div>
