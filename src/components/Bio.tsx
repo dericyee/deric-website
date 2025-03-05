@@ -5,7 +5,7 @@ const Bio = () => {
     <div className="flex flex-col space-y-4">
       <div className="flex items-center space-x-4">
         <span className="text-3xl">👨‍💻</span>
-        <span className="text-xl">EdTech, AI & Web3 builder</span>
+        <span className="text-xl">EdTech, HRTech & AI.</span>
       </div>
       <div className="flex items-center space-x-4">
         <span className="text-3xl">⚡️</span>
