@@ -231,7 +231,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
                     <div>
                       <h3 className="font-medium text-lg mb-2 text-white">Disruptr</h3>
-                      <p className="text-sm text-white/90">Malaysia's First Income Share Agreement Coding Bootcamp</p>
+                      <p className="text-sm text-white/90">Rethinking Tech Education To Meet Industry Needs</p>
                     </div>
                   </div>
                 </div>
@@ -320,6 +320,28 @@ export default function Home() {
                     <div>
                       <h3 className="font-medium text-lg mb-2 text-white">Vulcan Post</h3>
                       <p className="text-sm text-white/90">Learn tech in 3 months. Get a job, or 100% free.</p>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <Link 
+                href="https://studyinternational.com/news/land-a-tech-job-with-no-experience/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
+                  <Image
+                    src="/study-international.png"
+                    alt="Sigma School Study International Feature"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <div>
+                      <h3 className="font-medium text-lg mb-2 text-white">Study International</h3>
+                      <p className="text-sm text-white/90">You don’t need a degree to succeed in tech.</p>
                     </div>
                   </div>
                 </div>
